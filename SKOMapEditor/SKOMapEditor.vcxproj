@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>15.0</VCProjectVersion>
+    <ProjectGuid>{EE3EECC0-DBDB-4247-8798-0DC008D8E105}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>SKOMapEditor</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v142</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>Dependencies\SDL2_image\lib\x86;Dependencies\SDL2\lib\x86;Dependencies\SDL2_ttf\lib\x86;Dependencies\pthread\lib\x86;$(LibraryPath)</LibraryPath>
+    <IncludePath>Dependencies\SDL2_image\include;Dependencies\SDL2\include;Dependencies\SDL2_ttf\include;Dependencies\pthread\include;$(IncludePath)</IncludePath>
+    <OutDir>.</OutDir>
+    <IntDir>.</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+    <LibraryPath>$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <IncludePath>Dependencies\SDL2_image\include;Dependencies\SDL2\include;Dependencies\SDL2_ttf\include;Dependencies\pthread\include;$(IncludePath)</IncludePath>
+    <LibraryPath>Dependencies\SDL2_image\lib\x86;Dependencies\SDL2\lib\x86;Dependencies\SDL2_ttf\lib\x86;Dependencies\pthread\lib\x86;$(LibraryPath)</LibraryPath>
+    <OutDir>.</OutDir>
+    <IntDir>.</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>pthreadVC2.lib;SDL2.lib;SDL2_image.lib;SDL2_ttf.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <LanguageStandard>stdcpp20</LanguageStandard>
+      <FavorSizeOrSpeed>Speed</FavorSizeOrSpeed>
+      <WholeProgramOptimization>false</WholeProgramOptimization>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <FloatingPointModel>Precise</FloatingPointModel>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalDependencies>pthreadVC2.lib;SDL2.lib;SDL2_image.lib;SDL2_ttf.lib;opengl32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="ButtonTheme.h" />
+    <ClInclude Include="ButtonThemeType.h" />
+    <ClInclude Include="ButtonToggleGroup.h" />
+    <ClInclude Include="OPI_Stack.h" />
+    <ClInclude Include="OPI_VectorSet.h" />
+    <ClInclude Include="SKO_MapCollisionRect.h" />
+    <ClInclude Include="DialogPage.h" />
+    <ClInclude Include="MapEditorBrushModifier.h" />
+    <ClInclude Include="ini.h" />
+    <ClInclude Include="INIReader.h" />
+    <ClInclude Include="MapEditorGui.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="ButtonThemeFactory.h" />
+    <ClInclude Include="MapEditorEditingMode.h" />
+    <ClInclude Include="MapEditorManager.h" />
+    <ClInclude Include="MessageBoxType.h" />
+    <ClInclude Include="PanelThemeGridRect.h" />
+    <ClInclude Include="CursorType.h" />
+    <ClInclude Include="Element.h" />
+    <ClInclude Include="Button.h" />
+    <ClInclude Include="PanelThemeImage.h" />
+    <ClInclude Include="FontManager.h" />
+    <ClInclude Include="PanelTheme.h" />
+    <ClInclude Include="GuiManager.h" />
+    <ClInclude Include="MessageBox.h" />
+    <ClInclude Include="Panel.h" />
+    <ClInclude Include="SelectorRect.h" />
+    <ClInclude Include="SelectorRectTheme.h" />
+    <ClInclude Include="SelectorRectThemeFactory.h" />
+    <ClInclude Include="SelectorRectThemeType.h" />
+    <ClInclude Include="SKO_Enemy.h" />
+    <ClInclude Include="SKO_Item.h" />
+    <ClInclude Include="SKO_ItemObject.h" />
+    <ClInclude Include="SKO_item_defs.h" />
+    <ClInclude Include="SKO_Map.h" />
+    <ClInclude Include="SKO_MapReader.h" />
+    <ClInclude Include="SDL_headers.h" />
+    <ClInclude Include="SKO_MapTile.h" />
+    <ClInclude Include="SKO_MapTileset.h" />
+    <ClInclude Include="SKO_Npc.h" />
+    <ClInclude Include="SKO_Portal.h" />
+    <ClInclude Include="SKO_Shop.h" />
+    <ClInclude Include="SKO_Sign.h" />
+    <ClInclude Include="SKO_Stall.h" />
+    <ClInclude Include="SKO_Target.h" />
+    <ClInclude Include="TextLabel.h" />
+    <ClInclude Include="OPI_Renderer.h" />
+    <ClInclude Include="OPI_Timestep.h" />
+    <ClInclude Include="OPI_Clock.h" />
+    <ClInclude Include="OPI_Image.h" />
+    <ClInclude Include="OPI_Sleep.h" />
+    <ClInclude Include="TextComponent.h" />
+    <ClInclude Include="PanelThemeFactory.h" />
+    <ClInclude Include="PanelThemeType.h" />
+    <ClInclude Include="SKO_MapWriter.h" />
+    <ClInclude Include="TileLayerType.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ButtonTheme.cpp" />
+    <ClCompile Include="ButtonToggleGroup.cpp" />
+    <ClCompile Include="SKO_MapCollisionRect.cpp" />
+    <ClCompile Include="DialogPage.cpp" />
+    <ClCompile Include="ini.cpp" />
+    <ClCompile Include="INIReader.cpp" />
+    <ClCompile Include="MapEditorGui.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Button.cpp" />
+    <ClCompile Include="ButtonThemeFactory.cpp" />
+    <ClCompile Include="Element.cpp" />
+    <ClCompile Include="PanelThemeGridRect.cpp" />
+    <ClCompile Include="PanelThemeImage.cpp" />
+    <ClCompile Include="FontManager.cpp" />
+    <ClCompile Include="GuiManager.cpp" />
+    <ClCompile Include="MapEditorManager.cpp" />
+    <ClCompile Include="MessageBox.cpp" />
+    <ClCompile Include="SelectorRect.cpp" />
+    <ClCompile Include="SelectorRectTheme.cpp" />
+    <ClCompile Include="SelectorRectThemeFactory.cpp" />
+    <ClCompile Include="SKO_Enemy.cpp" />
+    <ClCompile Include="SKO_Item.cpp" />
+    <ClCompile Include="SKO_ItemObject.cpp" />
+    <ClCompile Include="SKO_Map.cpp" />
+    <ClCompile Include="SKO_MapReader.cpp" />
+    <ClCompile Include="SKO_MapTile.cpp" />
+    <ClCompile Include="SKO_MapTileset.cpp" />
+    <ClCompile Include="SKO_Npc.cpp" />
+    <ClCompile Include="SKO_Portal.cpp" />
+    <ClCompile Include="SKO_Shop.cpp" />
+    <ClCompile Include="SKO_Sign.cpp" />
+    <ClCompile Include="SKO_Stall.cpp" />
+    <ClCompile Include="SKO_Target.cpp" />
+    <ClCompile Include="TextComponent.cpp" />
+    <ClCompile Include="TextLabel.cpp" />
+    <ClCompile Include="OPI_Image.cpp" />
+    <ClCompile Include="Panel.cpp" />
+    <ClCompile Include="OPI_Renderer.cpp" />
+    <ClCompile Include="OPI_Timestep.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PanelThemeFactory.cpp" />
+    <ClCompile Include="SKO_MapWriter.cpp" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

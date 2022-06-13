@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Graphics">
+      <UniqueIdentifier>{6183b399-948b-4660-ae8b-f3813d069a77}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Engine">
+      <UniqueIdentifier>{4d7b9eb6-29da-41a5-a648-ba2b8ffda115}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics">
+      <UniqueIdentifier>{0c90ca37-d194-4977-a5d9-9b2880e9b7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Engine">
+      <UniqueIdentifier>{de4a3983-c240-4939-891e-874256b77d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Text">
+      <UniqueIdentifier>{479171ed-667f-4853-b2a4-b8631100d9a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI">
+      <UniqueIdentifier>{3031aecf-f956-4a67-b161-da410e5e7060}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\Themes">
+      <UniqueIdentifier>{c186ac27-fbba-492c-8afe-830548b3904b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\BaseElements">
+      <UniqueIdentifier>{6c5f9e93-806e-4259-8e85-fa17c63ee7fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\Managers">
+      <UniqueIdentifier>{c4412dbd-4aab-4a09-bac3-403509557cf1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\HighLevelElements">
+      <UniqueIdentifier>{3cd09678-0aca-4ba4-a7e1-8592d0f45339}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\Enums">
+      <UniqueIdentifier>{e7daa2b1-6870-493b-a6cc-ae963f825793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\Text">
+      <UniqueIdentifier>{3df65b30-3cd1-4373-93c9-06d532c00ee2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI">
+      <UniqueIdentifier>{4df5737e-bf09-4d82-b609-ecb0cf0978b6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\BaseElements">
+      <UniqueIdentifier>{d77abab7-a358-4844-ae9a-244768dc4ccc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\Themes">
+      <UniqueIdentifier>{35d8807c-e602-4d11-8cdc-feffaee1936a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\Managers">
+      <UniqueIdentifier>{a32902a3-c251-4150-a01c-c20e72cfad7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\HighLevelElements">
+      <UniqueIdentifier>{ce20ecf4-37d9-440e-ae9b-1725c8d0fd92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\Themes\Button">
+      <UniqueIdentifier>{12a46617-3efb-4f52-bb3f-50b24a24d32e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\Themes\Button">
+      <UniqueIdentifier>{82d5406a-ff44-4b57-afd1-4b63dfc71ee0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\Factories">
+      <UniqueIdentifier>{364ded82-e879-4c19-9dd5-542bd0ea3c60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\Factories">
+      <UniqueIdentifier>{b64fae00-2f14-4920-a335-520db754d6cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\Text\Managers">
+      <UniqueIdentifier>{c580a6bb-6a82-4c15-9ffd-9b466c367add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\MapEditor">
+      <UniqueIdentifier>{3d963a35-154e-4c5c-83dd-e5bfc6b377b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\MapEditor">
+      <UniqueIdentifier>{b003c2c2-8921-49aa-bd8d-f39393b0c199}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SKO">
+      <UniqueIdentifier>{9d4e4803-b2be-40f9-b5a1-00f36698adb4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SKO">
+      <UniqueIdentifier>{c152ad03-e5e1-4db5-81a6-b5570403716a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SKO\Map">
+      <UniqueIdentifier>{c0491d7c-8b61-4b4e-b213-14a047288ddf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\SKO\Map">
+      <UniqueIdentifier>{7a3a9576-f626-48a8-8b42-6169bdd4b948}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\Themes\SelectorRect">
+      <UniqueIdentifier>{5f2d3952-e7da-47ec-bf48-b134fe849b68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\Themes\SelectorRect">
+      <UniqueIdentifier>{ac53eabd-d09e-4cc3-ab29-e1c86f1e1aab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Graphics\GUI\Themes\Panel">
+      <UniqueIdentifier>{97300902-118f-455f-af65-31eb4f6c0d28}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Graphics\GUI\Themes\Panel">
+      <UniqueIdentifier>{401c1db8-90e5-4cd5-8dc0-b31e667b8908}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="OPI_Image.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="OPI_Clock.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OPI_Timestep.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OPI_Sleep.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="OPI_Renderer.h">
+      <Filter>Header Files\Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Button.h">
+      <Filter>Header Files\Graphics\GUI\BaseElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Element.h">
+      <Filter>Header Files\Graphics\GUI\BaseElements</Filter>
+    </ClInclude>
+    <ClInclude Include="Panel.h">
+      <Filter>Header Files\Graphics\GUI\BaseElements</Filter>
+    </ClInclude>
+    <ClInclude Include="CursorType.h">
+      <Filter>Header Files\Graphics\GUI\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelThemeType.h">
+      <Filter>Header Files\Graphics\GUI\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBoxType.h">
+      <Filter>Header Files\Graphics\GUI\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="MessageBox.h">
+      <Filter>Header Files\Graphics\GUI\HighLevelElements</Filter>
+    </ClInclude>
+    <ClInclude Include="GuiManager.h">
+      <Filter>Header Files\Graphics\GUI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonThemeFactory.h">
+      <Filter>Header Files\Graphics\GUI\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelThemeFactory.h">
+      <Filter>Header Files\Graphics\GUI\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonTheme.h">
+      <Filter>Header Files\Graphics\GUI\Themes\Button</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelTheme.h">
+      <Filter>Header Files\Graphics\GUI\Themes\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelThemeGridRect.h">
+      <Filter>Header Files\Graphics\GUI\Themes\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="PanelThemeImage.h">
+      <Filter>Header Files\Graphics\GUI\Themes\Panel</Filter>
+    </ClInclude>
+    <ClInclude Include="FontManager.h">
+      <Filter>Header Files\Graphics\Text\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextComponent.h">
+      <Filter>Header Files\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="Font.h">
+      <Filter>Header Files\Graphics\Text</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonToggleGroup.h">
+      <Filter>Header Files\Graphics\GUI\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditorManager.h">
+      <Filter>Header Files\MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditorGui.h">
+      <Filter>Header Files\MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="SDL_headers.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="INIReader.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ini.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_MapReader.h">
+      <Filter>Header Files\SKO\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_MapWriter.h">
+      <Filter>Header Files\SKO\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_Map.h">
+      <Filter>Header Files\SKO\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_MapTile.h">
+      <Filter>Header Files\SKO\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_Enemy.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_Item.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_item_defs.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_ItemObject.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_Shop.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_Stall.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_Target.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_Portal.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_Sign.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_MapTileset.h">
+      <Filter>Header Files\SKO\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="TextLabel.h">
+      <Filter>Header Files\Graphics\GUI\BaseElements</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorRect.h">
+      <Filter>Header Files\Graphics\GUI\BaseElements</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonThemeType.h">
+      <Filter>Header Files\Graphics\GUI\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorRectThemeType.h">
+      <Filter>Header Files\Graphics\GUI\Enums</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorRectThemeFactory.h">
+      <Filter>Header Files\Graphics\GUI\Factories</Filter>
+    </ClInclude>
+    <ClInclude Include="SelectorRectTheme.h">
+      <Filter>Header Files\Graphics\GUI\Themes\SelectorRect</Filter>
+    </ClInclude>
+    <ClInclude Include="DialogPage.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="TileLayerType.h">
+      <Filter>Header Files\MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditorEditingMode.h">
+      <Filter>Header Files\MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="MapEditorBrushModifier.h">
+      <Filter>Header Files\MapEditor</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_MapCollisionRect.h">
+      <Filter>Header Files\SKO\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="OPI_VectorSet.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="SKO_Npc.h">
+      <Filter>Header Files\SKO</Filter>
+    </ClInclude>
+    <ClInclude Include="OPI_Stack.h">
+      <Filter>Header Files\Engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OPI_Timestep.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="OPI_Renderer.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Button.cpp">
+      <Filter>Source Files\Graphics\GUI\BaseElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Element.cpp">
+      <Filter>Source Files\Graphics\GUI\BaseElements</Filter>
+    </ClCompile>
+    <ClCompile Include="Panel.cpp">
+      <Filter>Source Files\Graphics\GUI\BaseElements</Filter>
+    </ClCompile>
+    <ClCompile Include="TextLabel.cpp">
+      <Filter>Source Files\Graphics\GUI\BaseElements</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelThemeFactory.cpp">
+      <Filter>Source Files\Graphics\GUI\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="MessageBox.cpp">
+      <Filter>Source Files\Graphics\GUI\HighLevelElements</Filter>
+    </ClCompile>
+    <ClCompile Include="GuiManager.cpp">
+      <Filter>Source Files\Graphics\GUI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonTheme.cpp">
+      <Filter>Source Files\Graphics\GUI\Themes\Button</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelThemeGridRect.cpp">
+      <Filter>Source Files\Graphics\GUI\Themes\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="PanelThemeImage.cpp">
+      <Filter>Source Files\Graphics\GUI\Themes\Panel</Filter>
+    </ClCompile>
+    <ClCompile Include="Font.cpp">
+      <Filter>Source Files\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="FontManager.cpp">
+      <Filter>Source Files\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="OPI_Image.cpp">
+      <Filter>Source Files\Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonThemeFactory.cpp">
+      <Filter>Source Files\Graphics\GUI\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="TextComponent.cpp">
+      <Filter>Source Files\Graphics\Text</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonToggleGroup.cpp">
+      <Filter>Source Files\Graphics\GUI\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditorManager.cpp">
+      <Filter>Source Files\MapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="MapEditorGui.cpp">
+      <Filter>Source Files\MapEditor</Filter>
+    </ClCompile>
+    <ClCompile Include="INIReader.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ini.cpp">
+      <Filter>Source Files\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_MapReader.cpp">
+      <Filter>Source Files\SKO\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_MapWriter.cpp">
+      <Filter>Source Files\SKO\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_MapTile.cpp">
+      <Filter>Source Files\SKO\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_Map.cpp">
+      <Filter>Source Files\SKO\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_Enemy.cpp">
+      <Filter>Source Files\SKO</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_Item.cpp">
+      <Filter>Source Files\SKO</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_ItemObject.cpp">
+      <Filter>Source Files\SKO</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_Shop.cpp">
+      <Filter>Source Files\SKO</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_Target.cpp">
+      <Filter>Source Files\SKO</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_Stall.cpp">
+      <Filter>Source Files\SKO</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_Sign.cpp">
+      <Filter>Source Files\SKO</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_Portal.cpp">
+      <Filter>Source Files\SKO</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_MapTileset.cpp">
+      <Filter>Source Files\SKO\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectorRect.cpp">
+      <Filter>Source Files\Graphics\GUI\BaseElements</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectorRectTheme.cpp">
+      <Filter>Source Files\Graphics\GUI\Themes\SelectorRect</Filter>
+    </ClCompile>
+    <ClCompile Include="SelectorRectThemeFactory.cpp">
+      <Filter>Source Files\Graphics\GUI\Factories</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_MapCollisionRect.cpp">
+      <Filter>Source Files\SKO\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="DialogPage.cpp">
+      <Filter>Source Files\SKO</Filter>
+    </ClCompile>
+    <ClCompile Include="SKO_Npc.cpp">
+      <Filter>Source Files\SKO</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,64 @@
+# Compiled Object files
+*.o
+*.obj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+# Executables
+*.exe
+
+# DUB
+.dub/
+docs.json
+__dummy.html
+docs/
+
+# Visual Studio
+.vs/
+*.suo
+
+# Code coverage
+*.lst
+
+# Log Files
+*.log
+
+# Game Content files
+help.txt
+library.txt
+readme.txt
+rules.txt
+sko.*
+stdout.txt
+version.txt
+SKOAutoUpdater/version.txt
+*.visualdproj
+*.tlog
+*.pdb
+*.idb
+SKOMapEditor.VC.db
+SKOMapEditor.VC.VC.opendb
+*.ipch
+*.tlog
+*.tmp
+*.ilk
+*.user
+SKOMapEditor/SKOMapEditor.ilk
+SKOMapEditor/SKOMapEditor.vcxproj.user
+*.bin
+*.enc
+*.ilk
+*.map
+SKOMapEditor/SKOMapEditor.vcxproj.FileListAbsolute.txt
+SKOMapEditor/SKOMapEditor.exe.recipe
+SKOMapEditor/SKOMapEditor.vcxproj.FileListAbsolute.txt
+SKOMapEditor/Release/SKOMapEditor.exe.recipe
+SKOMapEditor/Release/
+SKOMapEditor/SKOMapEditor.vcxproj.FileListAbsolute.txt
+SKOMapEditor/IMG/EQUIP
+SKOMapEditor/IMG/ITEM
+SKOMapEditor/IMG/SPRITES
+SKOMapEditor/IMG/TARGET
+SKOMapEditor/IMG/TILE
